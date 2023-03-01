@@ -262,6 +262,17 @@ Navbar
   }
 }
 
+/* fixed navbar */
+.navbar-fixed {
+  position: fixed;
+  background: var(--clr-white);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  box-shadow: var(--light-shadow);
+}
+
 /*
 =============== 
 Sidebar
@@ -281,7 +292,11 @@ Sidebar
   place-items: center;
   transition: var(--transition);
   /* add later */
-  /* transform: translateX(-100%); */
+  transform: translateX(-100%);
+}
+
+.show-sidebar {
+  transform: translateX(0);
 }
 
 .sidebar-links {
@@ -340,6 +355,11 @@ Sidebar
 Hero
 ===============
 */
+.hero {
+  background: red;
+  min-height: 130vh;
+}
+
 /* underline added to globals */
 
 /*
