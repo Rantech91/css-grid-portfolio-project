@@ -355,10 +355,7 @@ Sidebar
 Hero
 ===============
 */
-.hero {
-  background: red;
-  min-height: 130vh;
-}
+.hero {}
 
 /* underline added to globals */
 
